@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+ion-icon[name="checkmark-circle"] {
+  color: #2FBE34;
+}
+ion-icon[name="close-circle"] {
+color: #FF3030;
+}
+ion-icon[name="help-circle"] {
+color: #FF922E;
+}
+
+body {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color:#FB6B6B;
+ color: var(--preto);
+ font-family: 'Righteous';
+}
+
+.deck {
+ display: flex;
+ flex-direction: column;
+}
+.deck .header {
+ position: fixed;
+ height: 80px;
+ top: 0;
+ left: 0;
+ right: 0;
+ display: flex;
+ justify-content: center;
+ padding: 10px 0;
+ font-size: 36px;
+ color: white;
+ font-family: "Righteous";
+ z-index: 1;
+ background-color:#FB6B6B;   
+}
+.deck .box {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.deck .box::-webkit-scrollbar {
+    display: none;
+}
+
+
+  .deck .header img {
+    width: 52px;
+    height: 60px;
+  }
+  
+  

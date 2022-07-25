@@ -1,0 +1,62 @@
+.label.open{
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFD4;
+    cursor: default;
+    padding: 20px 10px;
+  }
+  
+  .open div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .open.answer div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .open img {
+    cursor: pointer;
+  }
+  
+  .button {
+    padding: 6px 6px;
+    margin: 0 10px;
+    width: 20px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    filter: brightness(0.7)
+  }
+  .button.error {
+    background-color: #FF3030;
+  }
+  
+  .button.almost {
+    background-color:#FF922E;
+  }
+  
+  .button.zap {
+    background-color:#2FBE34;
+  }
+  
+ 
+  .icone {
+    
+    color: black;
+    width: 23px;
+    height: 23px;
+    z-index: 1;
+  }
+  
